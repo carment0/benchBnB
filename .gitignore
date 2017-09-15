@@ -8,13 +8,16 @@
 /.bundle
 
 # Ignore all logfiles and tempfiles.
-/log/*
-/tmp/*
+log/*
+tmp/*
 !/log/.keep
 !/tmp/.keep
 
 node_modules/
+tmp/
+log/
 bundle.js
+
 bundle.js.map
 /yarn-error.log
 
