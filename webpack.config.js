@@ -2,7 +2,7 @@ const path = require('path');
 
 module.exports = {
   context: __dirname,
-  entry: './frontend/benchBnB.jsx',
+  entry: './frontend/bench_bnb.jsx',
   output: {
     // where we want our bundle created
     path: path.resolve(__dirname, 'app', 'assets', 'javascripts'),
